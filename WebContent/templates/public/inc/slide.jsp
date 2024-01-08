@@ -65,7 +65,7 @@
             data-endspeed="500"
             style="z-index: -1;">
               <div class="rs-pulse"  data-easing="Power4.easeInOut" data-speed="1" data-zoomstart="1" data-zoomend="1.1">
-                <img src="<%=request.getContextPath()%>/templates/public/images/resource/dummy.png" data-lazyload="<%=request.getContextPath()%>/templates/public/images/resource/img-slider-1.png" alt="image">
+                <img src="<%=request.getContextPath()%>/templates/public/images/resource/img-slider-4.jpeg" data-lazyload="<%=request.getContextPath()%>/templates/public/images/resource/img-slider-1.png" alt="image">
               </div>
           </div>
 
@@ -74,7 +74,7 @@
         </li>
         <li data-transition="boxslide,slotslide-horizontal,slotslide-vertical,curtain-1,cube,cube-horizontal,flyin" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"  class="slide1 slide3">
     <!-- MAIN IMAGE -->
-    <img src="<%=request.getContextPath()%>/templates/public/images/resource/img-slider-2.png"  alt="slide3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+    <img src="<%=request.getContextPath()%>/templates/public/images/resource/img-slider-2.jpeg"  alt="slide3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
     <!-- LAYERS -->
 
     <!-- LAYER NR. 1 -->
@@ -144,7 +144,7 @@
   </li>
 <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
     <!-- MAIN IMAGE -->
-    <img src="<%=request.getContextPath()%>/templates/public/images/resource/img-slider-3.png"  alt="slide4"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+    <img src="<%=request.getContextPath()%>/templates/public/images/resource/img-slider-3.jpeg"  alt="slide4"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
     <!-- LAYERS -->
 
     <!-- LAYER NR. 1 -->

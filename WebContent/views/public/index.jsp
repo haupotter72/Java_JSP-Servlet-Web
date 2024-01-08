@@ -133,7 +133,7 @@
 			for(Perfume objProNew : proNews){
 				%>
 		<div class="tips-bar bg-primary">
-			<p>Sản phẩm mới&nbsp;<strong><%=objProNew.getPerfumes() %>. </strong><%=objProNew.getDescription()%>&nbsp;<strong>$<%=objProNew.getMoney() %></strong></p>
+			<p>Sản phẩm mới&nbsp;<strong><%=objProNew.getPerfumes() %>. </strong><%=objProNew.getDescription() %>&nbsp;<strong>$<%=objProNew.getMoney() %></strong></p>
 			<a href="<%=request.getContextPath()%>/productsingle?id=<%=objProNew.getId() %>" class="read-more">Đọc thêm</a>
 		</div> <!-- /tips-bar -->
 				<%

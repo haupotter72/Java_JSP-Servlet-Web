@@ -62,6 +62,7 @@
 				          <div id="info-1" class="collapse in">
 				            <p><%=product.getCreate_date()%></p>
 				            <p><%=product.getDescription()%></p>
+				            <p class="prod-price text-primary">$<%=product.getMoney()%></p>
 				            <a  idPro="<%=product.getId() %>" href="javascript:void(0)" class="btn btn-default add-to-card">Thêm vào giỏ hàng</a>
 				          </div>
 				        </div>
@@ -98,10 +99,12 @@
 		      <div class="carousel-multiple owl-carousel">
 		      <%
 		      	for(Perfume objOther : ortherProList){
+		    	 
 		      		%>
 		      	<div class="item">
 		          <div class="thumbnail thumbnail-product">
 		          <%
+		          
 		          	if(request.getAttribute("picPro"+objOther.getId()) != null){
 		          		Picture picPro = (Picture) request.getAttribute("picPro"+objOther.getId());
 		          		%>
@@ -117,9 +120,11 @@
 		          		<%
 		          	}
 		          %>
+		          
 		            
 		            <div class="caption text-center">
-		              <h5><a href="#"><%=objOther.getPerfumes() %></a></h5>
+		             
+		               <h5><a href="<%=request.getContextPath()%>/productsingle?id=<%=objOther.getId()%>"><%=objOther.getPerfumes() %></a></h5>
 		              <div class="rating-star">
 		                <i class="flaticon-favourites7 selected"></i>
 		                <i class="flaticon-favourites7 selected"></i>

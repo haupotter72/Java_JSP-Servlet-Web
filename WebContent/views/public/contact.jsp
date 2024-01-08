@@ -38,10 +38,10 @@
                 <span>Liên hệ <br>Chúng tôi</span>
               </header>
               <ul class="contact-list">
-                <li><span class="iconic"><i class="flaticon-call36"></i></span>0797 - 207 - 493</li>
-                <li><span class="iconic"><i class="flaticon-email15"></i></span><a href="#">leducnam1805@gmail.com</a></li>
-                <li><span class="iconic"><i class="flaticon-twitter16"></i></span><a href="#">@followperfume</a></li>
-                <li><span class="iconic"><i class="flaticon-facebook43"></i></span><a href="#">facebook.com/perfume</a></li>
+                <li><span class="iconic"><i class="flaticon-call36"></i></span>0919608528</li>
+                <li><span class="iconic"><i class="flaticon-email15"></i></span><a href="#">thopotter.Dev@gmail.com</a></li>
+                <li><span class="iconic"><i class="flaticon-twitter16"></i></span><a href="#">@potter</a></li>
+                <li><span class="iconic"><i class="flaticon-facebook43"></i></span><a href="#">facebook.com/potter</a></li>
               </ul>
             </div>
             <div class="col-sm-7 col-lg-8">

@@ -12,8 +12,8 @@
 						<p>Liên hệ chúng tôi.</p>
 						<nav>
 							<ul>
-								<li><i class="flaticon-phone72"></i>0797 - 207 - 493</li>
-								<li><a href="#"><i class="flaticon-email15"></i>leducnam1805@gmail.com</a></li>
+								<li><i class="flaticon-phone72"></i>0919608527</li>
+								<li><a href="#"><i class="flaticon-email15"></i>thopotter.Dev@gmail.com</a></li>
 								<li><a href="#"><i class="flaticon-google125"></i>Bạn có muốn nói chuyện trực tiếp?</a></li>
 							</ul>
 						</nav>
@@ -66,9 +66,9 @@
       <nav>
         <ul class="footer-links">
           <li><a href="<%=request.getContextPath()%>/home">Trang chủ</a></li>
-          <li><a href="<%=request.getContextPath()%>/thuong-hieu">Thương hiệu</a></li>
+          <li><a href="<%=request.getContextPath()%>/home">Thương hiệu</a></li>
           <li><a href="<%=request.getContextPath()%>/blog">Blog</a></li>
-          <li><a href="<%=request.getContextPath()%>/lien-he">Liên hệ</a></li>
+          <li><a href="<%=request.getContextPath()%>/contact">Liên hệ</a></li>
         </ul>
       </nav>
 		</div>

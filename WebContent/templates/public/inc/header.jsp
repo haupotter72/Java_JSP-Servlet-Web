@@ -28,6 +28,7 @@
 				<ul class="tp-links">
 					<li><span class="dropBox-btn">Xin chào &nbsp; <%=userInfor.getFullname() %></span>
 					</li>
+					<a href="<%=request.getContextPath()%>/admin" class="nav-link">Quản Lí</a>
 				</ul>
 				<!-- /tp-links -->
 			</div>
@@ -105,8 +106,8 @@
 
 		<div class="main-bar">
 			<div class="logo">
-				<a href="index-2.html"><img
-					src="<%=request.getContextPath()%>/templates/public/images/logo.png"
+				<a href="<%=request.getContextPath()%>/home"><img
+					src="<%=request.getContextPath()%>/templates/public/images/logo1.png"
 					alt="perfume"></a>
 			</div>
 			<!-- /logo -->

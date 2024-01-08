@@ -42,12 +42,12 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<img src="<%=request.getContextPath()%>/templates/public/auth/images/img-01.png" alt="IMG">
+					<img src="<%=request.getContextPath()%>/templates/public/auth/images/img-02.jpg" alt="IMG">
 				</div>
 
 				<form class="login100-form validate-form" method="post" action="<%=request.getContextPath()%>/signup">
-					<span class="login100-form-title">
-						Đăng ký tài khoản
+					<span >
+						<strong>Đăng Kí Tài Khoản Tại Đây:</strong>
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">

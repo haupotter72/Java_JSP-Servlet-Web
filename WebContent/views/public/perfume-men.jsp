@@ -54,7 +54,8 @@
 					%>
 					   
 						<div class="caption text-center">
-							<h5><a href="<%=request.getContextPath()%>/productsingle"><%=objView.getPerfumes() %></a></h5>
+
+							<h5><a href="<%=request.getContextPath()%>/productsingle?id=<%=objView.getId()%>"><%=objView.getPerfumes() %></a></h5>
 							<div class="rating-star">
 								<i class="flaticon-favourites7 selected"></i>
 								<i class="flaticon-favourites7 selected"></i>
@@ -120,7 +121,8 @@
 						}
 					%>
 						<div class="caption text-center">
-							<h5><a href="<%=request.getContextPath()%>/productsingle"><%=perAllNew.getPerfumes()%></a></h5>
+						    <h5><a href="<%=request.getContextPath()%>/productsingle?id=<%=perAllNew.getId()%>"><%=perAllNew.getPerfumes() %></a></h5>
+							
 							<div class="rating-star">
 								<i class="flaticon-favourites7 selected"></i>
 								<i class="flaticon-favourites7 selected"></i>
@@ -187,7 +189,8 @@
 					%>
 					   
 						<div class="caption text-center">
-							<h5><a href="<%=request.getContextPath()%>/productsingle"><%=allProduct.getPerfumes() %></a></h5>
+						<h5><a href="<%=request.getContextPath()%>/productsingle?id=<%=allProduct.getId()%>"><%=allProduct.getPerfumes() %></a></h5>
+
 							<div class="rating-star">
 								<i class="flaticon-favourites7 selected"></i>
 								<i class="flaticon-favourites7 selected"></i>
